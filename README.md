@@ -5,7 +5,7 @@ data science portfolio
 
 The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Clustering analysis is used to accomplish this task. Clustering is an unsupervised data mining technique that groups data such that objects in the same cluster share more similar properties than objects in other clusters. This project utilizes the K-prototypes algorithm to handle both the categorical and numerical features in the preprocessed dataset. Although the more popular K-means algorithm is also employed after some additional preprocessing, the more versatile K-protoypes algorithm yielded more insightful information due to its ability to handle catagorical data.
 
-![](https://github.com/calvinchoi21/Calvin_Portfolio/blob/master/images/download.png)
+![](/images/download.png)
 
 # [Predicting Hotel Cancellations](https://github.com/calvinchoi21/predicting-booking-cancellations)
 
@@ -13,7 +13,7 @@ The purpose of this project is to predict whether a given booking at a hotel wou
 
 Five classifiers (three base, two ensemble algorithms) all from different categories are initially tested. Based on the scoring, one base and one ensemble algorithm will be fine-tuned and tested on a subset of data set aside to simulate future, unseen data. Due to the heavy presence of categorical features in this dataset, this project places equal emphasis on data preprocessing as it does with the predictive modelling component.
 
-![](https://github.com/calvinchoi21/Calvin_Portfolio/blob/master/images/predicting_cancellations.png)
+![](/images/predicting_cancellations.png)
 
 # [Predicting Customer Churns with Classification Algorithms](https://github.com/calvinchoi21/predicting-customer-churn/blob/master/Classification_Customer_Churn.ipynb)
 
