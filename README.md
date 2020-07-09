@@ -1,5 +1,4 @@
-# Calvin_Portfolio
-data science portfolio
+# Calvin Choi
 
 # [Using Climate Data to Uncover Crime Patters in Toronto](https://github.com/calvinchoi21/toronto-crime-clustering/blob/master/Toronto_Crime.ipynb)
 
