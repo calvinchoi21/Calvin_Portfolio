@@ -22,15 +22,21 @@ This project uses information entered by the customer at the time of booking to 
 - Custom data transformers are built to automatically discretize, bin, and group specific features, as well as creating new features using existing data. 
 - Off-the-shelf sklearn preprocessors are also used to impute missing values, encode categorical data, perform feature selection, etc. 
 - Pipelines are constructed to bind together transformers and estimators for further automation. 
-- Five classifiers are intially tested, and two were shortlisted (KNN and Random Forest) based on highest f1-score. 
-- Used GridsearchCV on pipeline to tweak both estimator and transformer parameters to arrive at the strongest model. 
+- Five classifiers are initially tested, and two were shortlisted (KNN and Random Forest) based on highest f1-score. 
+- Used GridsearchCV on pipeline to tweak both estimator and transformer parameters to arrive at the strongest model.
+- Code: [Link](https://github.com/calvinchoi21/predicting-booking-cancellations/blob/master/Predicting_cancellations.ipynb) 
 
 ![](/images/predicting_cancellations.png)
 
 # [Predicting Customer Churns with Classification Algorithms](https://github.com/calvinchoi21/predicting-customer-churn/blob/master/Classification_Customer_Churn.ipynb)
 
-The purpose of this project is to predict whether a telco customer will leave the company, i.e. churn, by utilizing supervised learning in the form of classification. An example of why a company would employ this task is to identify exisiting customers that are likely to churn so that resources such as promotional material be allocated appropriately in an effort to retain them.
+This is a binary classification problem and was my foray into supervised machine learning. The purpose of the project was to utilize customer record data from a telco company to predict whether they would leave the company, or in other words churn. Six classification algorithms are tested and shortlisted for this task. The precision and recall trade-off for each model is also considered to simulate the real-life business decision made by an organization. 
 
-For this task, six classification algorthims are initially considered using cross-validation on the training set. Of those six, three are shortlisted for further modelling. For each of those models, the hyperparameters are tuned and the validation set is used to test the performance increase from the tuning. After a model is tuned, a precision and recall trade-off that is appropriate for the task is chosen for it. The final models are then tested on the validation set to compare performance. Finally, the models are tested once more on unseen data via the test set to determine the best performing model.
+- Dataset contains 3,333 records, each containing customer information. Target feature is either 'yes' or 'no', indicating whether that customer churned. 
+- Due to heavy class imbalance of target feature, custom metric (based on f1-score of the minority class) is used to grade each model. 
+- Six classifiers are initially tested using 5-fold cross-validation, and three are shortlisted (decision tree, random forest, gradient boosting). 
+- Optimized shortlisted models using GridSearchCV to find the best models. 
+- Tweaked the decision threshold of each model to reflect an appropriate precision/recall tradeoff to simulate corporate strategy (i.e. increase recall and the expense of precision). 
+- Plotted Precision-Recall curve to visualize and compare stregth of the models.  
 
 ![](/images/pr%20curve.png)
