@@ -28,4 +28,4 @@ The purpose of this project is to predict whether a telco customer will leave th
 
 For this task, six classification algorthims are initially considered using cross-validation on the training set. Of those six, three are shortlisted for further modelling. For each of those models, the hyperparameters are tuned and the validation set is used to test the performance increase from the tuning. After a model is tuned, a precision and recall trade-off that is appropriate for the task is chosen for it. The final models are then tested on the validation set to compare performance. Finally, the models are tested once more on unseen data via the test set to determine the best performing model.
 
-![](/images/pr%20curve.png)
+![](https://github.com/calvinchoi21/Portfolio/blob/master/images/pr%20curve.png)
