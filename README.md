@@ -16,9 +16,14 @@ The aim of this project is to combine crime data obtained from the Toronto Polic
 
 # [Predicting Hotel Cancellations](https://github.com/calvinchoi21/predicting-booking-cancellations)
 
-The purpose of this project is to predict whether a given booking at a hotel would be cancelled in the future. This is accomplished by training classification algorithms on a set of features to choose between two classes in the target feature (1 for cancelled and 0 for not cancelled). Cancellations can lead to a loss in revenue for hotels making it a worthwhile endeavour to predict whether a given booking is likely to cancel. 
+This project uses information entered by the customer at the time of booking to predict whether they will end up cancelling the booking. Several classification algorithms are trained on the dataset to build models that will assign one of two labels to each record, cancelled or not cancelled. 
 
-Five classifiers (three base, two ensemble algorithms) all from different categories are initially tested. Based on the scoring, one base and one ensemble algorithm will be fine-tuned and tested on a subset of data set aside to simulate future, unseen data. Due to the heavy presence of categorical features in this dataset, this project places equal emphasis on data preprocessing as it does with the predictive modelling component.
+- Dataset contains records on 119,390 bookings made between two hotels. Extensive EDA was conducted to determine preprocessing needs.
+- Custom data transformers are built to automatically discretize, bin, and group specific features, as well as creating new features using existing data. 
+- Off-the-shelf sklearn preprocessors are also used to impute missing values, encode categorical data, perform feature selection, etc. 
+- Pipelines are constructed to bind together transformers and estimators for further automation. 
+- Five classifiers are intially tested, and two were shortlisted (KNN and Random Forest) based on highest f1-score. 
+- Used GridsearchCV on pipeline to tweak both estimator and transformer parameters to arrive at the strongest model. 
 
 ![](/images/predicting_cancellations.png)
 
@@ -28,4 +33,4 @@ The purpose of this project is to predict whether a telco customer will leave th
 
 For this task, six classification algorthims are initially considered using cross-validation on the training set. Of those six, three are shortlisted for further modelling. For each of those models, the hyperparameters are tuned and the validation set is used to test the performance increase from the tuning. After a model is tuned, a precision and recall trade-off that is appropriate for the task is chosen for it. The final models are then tested on the validation set to compare performance. Finally, the models are tested once more on unseen data via the test set to determine the best performing model.
 
-![](https://github.com/calvinchoi21/Portfolio/blob/master/images/pr%20curve.png)
+![](/images/pr%20curve.png)
