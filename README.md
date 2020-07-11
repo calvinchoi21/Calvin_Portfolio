@@ -39,4 +39,4 @@ This is a binary classification problem and was my foray into supervised machine
 - Tweaked decision threshold of each model to arrive at desirable precision/recall tradeoff. 
 - Plotted PR curves to visualize and compare stregth of final models.
 
-![](/images/pr%20curve.png)
+![](/images/predicting_cancellations.png)
