@@ -41,3 +41,5 @@ This is a binary classification problem and was my foray into supervised machine
 - Code: [Link](https://github.com/calvinchoi21/predicting-customer-churn/blob/master/Classification_Customer_Churn.ipynb)
 
 ![](/images/predicting_cancellations.png)
+
+# [Predicting Customer Churns](https://github.com/calvinchoi21/predicting-customer-churn)
