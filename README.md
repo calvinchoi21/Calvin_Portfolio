@@ -28,7 +28,7 @@ This project uses information entered by the customer at the time of booking to 
 
 ![](/images/predicting_cancellations.png)
 
-# [Predicting Customer Churns with Classification Algorithms](https://github.com/calvinchoi21/predicting-customer-churn)
+# [Predicting Customer Churns](https://github.com/calvinchoi21/predicting-customer-churn)
 
 This is a binary classification problem and was my foray into supervised machine learning. The purpose of the project was to utilize customer record data from a telco company to predict whether they would leave the company, or in other words churn. Six classification algorithms are tested and shortlisted for this task. The precision and recall trade-off for each model is also considered to simulate the real-life business decision made by an organization. 
 
