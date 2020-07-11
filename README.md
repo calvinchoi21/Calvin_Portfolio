@@ -40,6 +40,6 @@ This is a binary classification problem and was my foray into supervised machine
 - Plotted PR curves to visualize and compare strength of final models.
 - Code: [Link](https://github.com/calvinchoi21/predicting-customer-churn/blob/master/Classification_Customer_Churn.ipynb)
 
-![](/images/predicting_cancellations.png)
+![](/images/pr%20curve.png)
 
 # [Predicting Customer Churns](https://github.com/calvinchoi21/predicting-customer-churn)
