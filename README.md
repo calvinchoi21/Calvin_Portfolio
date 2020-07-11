@@ -42,4 +42,10 @@ This is a binary classification problem and was my foray into supervised machine
 
 ![](/images/pr%20curve.png)
 
-# [Predicting Customer Churns](https://github.com/calvinchoi21/predicting-customer-churn)
+# [Application of Statistical Testing in Python](https://github.com/calvinchoi21/statistical-testing-in-python)
+
+While Python is a powerful, general purpose, language that is widely used in data science, R is a domain-specific language designed for statistical analysis. The application of statistical formulas are much simplier with R language and the outputs tend to be more informative than Python. This project demonstrate how one can obtain similar functionality as R when conducting parametric and non-parametic testing in Python.
+
+- Built functions using Numpy and Scipy to perform parametic and non-parametric testing and provide similar output to R. 
+- Included tests for paried and unpaired samples for comparing two groups, as well as sample and block design tests for comparing more than two groups.
+- Code: [Link](https://github.com/calvinchoi21/statistical-testing-in-python/blob/master/statistical_testing_in_python.ipynb)
