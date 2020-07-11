@@ -36,7 +36,7 @@ This is a binary classification problem and was my foray into supervised machine
 - Due to heavy class imbalance of target feature, custom metric (based on f1-score of the minority class) is used to grade each model. 
 - Six classifiers are initially tested using 5-fold cross-validation, and three are shortlisted (decision tree, random forest, gradient boosting). 
 - Optimized shortlisted models using GridSearchCV to find the best models. 
-- Tweaked the decision threshold of each model to reflect an appropriate precision/recall tradeoff to simulate corporate strategy (i.e. increase recall and the expense of precision). 
-- Plotted Precision-Recall curve to visualize and compare stregth of the models.  
+- Tweaked decision threshold of each model to arrive at desirable precision/recall tradeoff (i.e. increase recall at the expense of precision). 
+- Plotted PR curves to visualize and compare stregth of final models.  
 
 ![](/images/pr%20curve.png)
