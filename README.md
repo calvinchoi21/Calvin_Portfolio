@@ -37,6 +37,6 @@ This is a binary classification problem and was my foray into supervised machine
 - Six classifiers are initially tested using 5-fold cross-validation, and three are shortlisted based on score of custom metric. 
 - Optimized shortlisted models using GridSearchCV to find the best models. 
 - Tweaked decision threshold of each model to arrive at desirable precision/recall tradeoff. 
-- Plotted PR curves to visualize and compare stregth of final models.  
+- Plotted PR curves to visualize and compare stregth of final models.
 
 ![](/images/pr%20curve.png)
