@@ -1,3 +1,7 @@
+# ABOUT ME
+
+Data analytics and data science are my passions as I am constantly fascinated by the amount of information one can derive from data alone. I am an avid user of Python and R language and find them increasingly powerful for all steps of a data analytics project - from data cleansing and wrangling to big data mining, predictive modelling and other machine learning techniques. True to my passion, I am constantly looking for new analytical and data science practices to add to my toolbelt and to stay up to date with current developments in the field. To cement this knowledge, I continue to work on projects using creative problem-solving to explore data in ways that are meaningful and easy to interpret. Feel free to review some of my work below and do not hesitate to get in touch! 
+
 # MY PROJECTS
 
 # [Using Climate Data to Uncover Crime Patters in Toronto](https://github.com/calvinchoi21/toronto-crime-clustering)
