@@ -12,7 +12,7 @@ The aim of this project is to combine crime data obtained from the Toronto Polic
 - Data visualization and the aggregation of records by cluster was used to understand the charateristics of each cluster. 
 - Code: [Link](https://github.com/calvinchoi21/toronto-crime-clustering/blob/master/Toronto_Crime.ipynb)
 
-![](/images/download.png)
+![](/images/crime_clusters.jpg)
 
 # [Predicting Hotel Cancellations](https://github.com/calvinchoi21/predicting-booking-cancellations)
 
@@ -40,7 +40,7 @@ This is a binary classification problem and was my foray into supervised machine
 - Plotted PR curves to visualize and compare strength of final models.
 - Code: [Link](https://github.com/calvinchoi21/predicting-customer-churn/blob/master/Classification_Customer_Churn.ipynb)
 
-![](/images/pr%20curve.png)
+![](/images/churn_curves.jpg)
 
 # [Application of Statistical Testing in Python](https://github.com/calvinchoi21/statistical-testing-in-python)
 
