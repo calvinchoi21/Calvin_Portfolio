@@ -4,7 +4,7 @@ Data analytics and data science are my passions, I enjoy working with large and 
 
 # MY PROJECTS
 
-# [Using Climate Data to Uncover Crime Patters in Toronto](https://github.com/calvinchoi21/toronto-crime-clustering)
+# [Using Climate Data to Uncover Crime Patterns in Toronto](https://github.com/calvinchoi21/toronto-crime-clustering)
 
 The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Cluster analysis is employed to group the data such that objects in the same cluster share more similar properties than objects in other clusters.
 
