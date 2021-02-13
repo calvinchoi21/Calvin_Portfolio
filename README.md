@@ -4,6 +4,22 @@ Data analytics and data science are my passions, I enjoy working with large and 
 
 # MY PROJECTS
 
+# [Detecting Sarcasm in Text with NLP and Text Classification](https://github.com/calvinchoi21/sarcasm-detection)
+
+The goal of this study is to develop a model that can accurately differentiate sarcastic text from non-sarcastic text. Data for this model included user comments scraped from the popular social news website, Reddit. Natural Language Processing (NLP) techniques were applied to the corpus for text preprocessing and topic modelling. Finally, this study trained and tested several supervised learning algorithms to classify sarcastic and non-sarcastic comments using the bag-of-ngrams approach, along with engineered features that also were fed into the model. 
+
+- The labelled dataset contains sarcastic and non-sarcastic comments scraped from Reddit. 
+- EDA of the comments included 3 main areas: analyzing N-grams of the sarcastic class, exploring the structure of the comments, and analysis on the parts of speech (POS) and named entity recognition (NER) of the comments. 
+- For text preprocessing, the comments are first normalized and lemmatized. The text is then transformed in a bag-of-unigrams and bag-of-bigrams. Tf-idf weights are also applied to each word, which determines its importance in the overall corpus. 
+- Additional features engineered for the model include the length of the comment (by words), the number of ellipses, exclamation marks, question marks, quotation marks, smiley face emoticons, and the number of repeating characters. 
+- These text preprocessing and feature engineering steps were built into a single pipeline to allow for quick cross-validation of models when bound to scikit-learn classifiers.
+- Five separate classifiers were evaluated and compared. The strongest models utilized the Multinomial Naive Bayes classifier and the Logistic Regression classifier. 
+- EDA Code: [Link](https://github.com/calvinchoi21/sarcasm-detection/blob/main/EDA%20-%20Detecting%20Sarcasm%20in%20Text.ipynb)
+- Modelling Code: [Link](https://github.com/calvinchoi21/sarcasm-detection/blob/main/Modelling%20-%20Detecting%20Sarcasm%20in%20Text.ipynb)
+- Link to full report: [Link](https://github.com/calvinchoi21/sarcasm-detection/blob/main/Report/Final%20Report%20-%20Detecting%20Sarcasm.docx)
+
+![](/images/sarcasm_detection.jpg)
+
 # [Using Climate Data to Uncover Crime Patterns in Toronto](https://github.com/calvinchoi21/toronto-crime-clustering)
 
 The aim of this project is to combine crime data obtained from the Toronto Police Service (TPS) with Toronto based climate data from the Government of Canada to uncover patterns in criminal activity in the city as it relates to climate. Cluster analysis is employed to group the data such that objects in the same cluster share more similar properties than objects in other clusters.
