@@ -6,7 +6,7 @@ Data analytics and data science are my passions, I enjoy working with large and 
 
 # [Detecting Sarcasm in Text with NLP and Text Classification](https://github.com/calvinchoi21/sarcasm-detection)
 
-The goal of this study is to develop a model that can accurately differentiate sarcastic text from non-sarcastic text. Data for this model included user comments scraped from the popular social news website, Reddit. Natural Language Processing (NLP) techniques were applied to the corpus for text preprocessing and topic modelling. Finally, this study trained and tested several supervised learning algorithms to classify sarcastic and non-sarcastic comments using the bag-of-ngrams approach, along with engineered features that also were fed into the model. 
+The goal of this study is to develop a model that can accurately differentiate sarcastic text from non-sarcastic text. Data for this model included user comments scraped from the popular social news website, Reddit. Natural Language Processing (NLP) techniques were applied to the corpus for text preprocessing and topic modelling. Finally, this study trained and tested several supervised learning algorithms to classify sarcastic and non-sarcastic comments using the bag-of-ngrams approach, along with engineered features that  were also fed into the model. 
 
 - The labelled dataset contains sarcastic and non-sarcastic comments scraped from Reddit ([source](https://www.kaggle.com/danofer/sarcasm)).
 - EDA of the comments included 3 main areas: analyzing N-grams of the sarcastic class, exploring the structure of the comments, and analysis on the parts of speech (POS) and named entity recognition (NER) of the comments. 
