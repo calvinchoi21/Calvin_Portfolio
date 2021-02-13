@@ -8,7 +8,7 @@ Data analytics and data science are my passions, I enjoy working with large and 
 
 The goal of this study is to develop a model that can accurately differentiate sarcastic text from non-sarcastic text. Data for this model included user comments scraped from the popular social news website, Reddit. Natural Language Processing (NLP) techniques were applied to the corpus for text preprocessing and topic modelling. Finally, this study trained and tested several supervised learning algorithms to classify sarcastic and non-sarcastic comments using the bag-of-ngrams approach, along with engineered features that also were fed into the model. 
 
-- The labelled dataset contains sarcastic and non-sarcastic comments scraped from Reddit. 
+- The labelled dataset contains sarcastic and non-sarcastic comments scraped from Reddit ([source](https://www.kaggle.com/danofer/sarcasm)).
 - EDA of the comments included 3 main areas: analyzing N-grams of the sarcastic class, exploring the structure of the comments, and analysis on the parts of speech (POS) and named entity recognition (NER) of the comments. 
 - For text preprocessing, the comments are first normalized and lemmatized. The text is then transformed in a bag-of-unigrams and bag-of-bigrams. Tf-idf weights are also applied to each word, which determines its importance in the overall corpus. 
 - Additional features engineered for the model include the length of the comment (by words), the number of ellipses, exclamation marks, question marks, quotation marks, smiley face emoticons, and the number of repeating characters. 
