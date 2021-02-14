@@ -10,7 +10,7 @@ The goal of this study is to develop a model that can accurately differentiate s
 
 - The labelled dataset contains sarcastic and non-sarcastic comments scraped from Reddit ([source](https://www.kaggle.com/danofer/sarcasm)).
 - EDA of the comments included 3 main areas: analyzing N-grams of the sarcastic class, exploring the structure of the comments, and analysis on the parts of speech (POS) and named entity recognition (NER) of the comments. 
-- For text preprocessing, the comments are first normalized and lemmatized. The text is then transformed in a bag-of-unigrams and bag-of-bigrams. Tf-idf weights are also applied to each word, which determines its importance in the overall corpus. 
+- For text preprocessing, the comments are first normalized and lemmatized. The text is then converted into a bag-of-unigrams and bag-of-bigrams, and tf-idf weights are also applied to each word, which determines its importance in the overall corpus. 
 - Additional features engineered for the model include the length of the comment (by words), the number of ellipses, exclamation marks, question marks, quotation marks, smiley face emoticons, and the number of repeating characters. 
 - These text preprocessing and feature engineering steps were built into a single pipeline to allow for quick cross-validation of models when bound to scikit-learn classifiers.
 - Five separate classifiers were evaluated and compared. The strongest models utilized the Multinomial Naive Bayes classifier and the Logistic Regression classifier. 
