@@ -1,6 +1,6 @@
 # ABOUT ME
 
-Data analytics and data science are my passions, I enjoy working with large and complex data structures to derive insights hidden within. I am currently working to transition from business to analytics because I believe I have more to offer in this field. I am an avid user of Python and R language and find them to be very powerful for all steps of a data analytics project - from data cleansing and wrangling to big data mining, predictive modelling and other machine learning techniques. True to my passion, I am constantly looking for new analytical and data science practices to add to my toolbelt and to stay up to date with current developments in the field. To cement this knowledge, I continue to work on projects using creative problem-solving to explore data in ways that are meaningful and easy to interpret. Feel free to review some of my work below and do not hesitate to get in touch! 
+I specialize in different areas of analytics such as data visualization, time series trending, predictive analytics, and other data science practices. I am an avid user of Python and R, which allow for creative problem solving in mining hard-to-obtain insights in messy datasets. My expertise extends to crafting ETL flows and data models for others to use. My solutions are always geared toward explainability, regardless of how complex the requirement. . Feel free to review some of my work below and do not hesitate to get in touch! 
 
 # MY PROJECTS
 
