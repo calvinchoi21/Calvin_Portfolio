@@ -1,6 +1,6 @@
 # Calvin Choi
 
-Calvin Choi is an analytics professional who partners with business and leadership teams to strategize, drive production, and exceed growth objectives. He specializes in different areas of analytics such as visualization, time series, forecasting, predictive analytics, and other data science practices. He enjoys working with messy data using creative problem solving to mine hard-to-obtain insights. All his solutions are geared toward simplicity and explainability regardless of how complex the requirement. Currently he is pursuing a Master of Science degree at Georgia Tech with a focus in statistical analysis, machine learning, and big data techniques. 
+Calvin Choi is an analytics professional who partners with business and leadership teams to strategize, drive production, and exceed growth objectives. He specializes in different areas of analytics such as visualization, time series, forecasting, predictive analytics, and other data science practices. He enjoys working with messy data using creative problem solving to mine hard-to-obtain insights. All his solutions are geared toward simplicity and explainability regardless of how complex the requirement. Currently he is pursuing a Master of Science degree at Georgia Tech with a focus in statistical analysis, machine learning, and big data techniques.
 
 # MY PROJECTS
 
