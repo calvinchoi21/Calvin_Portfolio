@@ -1,6 +1,6 @@
-# ABOUT ME
+# Calvin Choi
 
-I specialize in different areas of analytics such as data visualization, time series trending, predictive analytics, and other data science practices. I am an avid user of Python and R, which allow for creative problem solving in mining hard-to-obtain insights in messy datasets. My expertise extends to crafting ETL flows and data models for others to use. My solutions are always geared toward explainability, regardless of how complex the requirement. . Feel free to review some of my work below and do not hesitate to get in touch! 
+Calvin Choi is an analytics professional who partners with business and leadership teams to strategize, drive production, and exceed growth objectives. He specializes in different areas of analytics such as visualization, time series and forecasting, predictive analytics, and other data science practices. He enjoys working with messy data using creative problem solving to mine hard-to-obtain insights. All his solutions are geared toward simplicity and explainability regardless of how complex the requirement. Currently he is pursuing a Master of Science degree at Georgia Tech with a focus in statistical analysis, machine learning, and big data techniques. 
 
 # MY PROJECTS
 
